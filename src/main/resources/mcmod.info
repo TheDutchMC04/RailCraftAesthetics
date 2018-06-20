@@ -1,0 +1,16 @@
+[
+{
+  "modid": "railcraftaeshetics",
+  "name": "RailCraftAeshetics",
+  "description": "RailCraft Aesthetics",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["thedutchmc"],
+  "credits": "TheDutchMC, RailCraft Developers",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

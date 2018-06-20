@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "railcraftaesthetics:blocks/abyssal_stone"
+     }
+}

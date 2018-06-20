@@ -1,0 +1,17 @@
+tile.brass_block.name=Brass Block
+tile.bronze_block.name=Bronze Block
+tile.copper_block.name=Copper Block
+tile.invar_block.name=Invar Block
+tile.lead_block.name=Lead Block
+tile.nickel_block.name=Nickel Block
+tile.silver_block.name=Silver Block
+tile.steel_block.name=Steel Block
+tile.tin_block.name=Tin Block
+tile.zinc_block.name=Zinc Block
+tile.abyssal_stone.name=Abyssal Stone
+tile.quarried_stone.name=Quarried Stone
+tile.concrete.name=Concrete
+
+item.bronze_ingot.name=Bronze Ingot
+
+itemGroup.railcraftaestheticstab=RailCraftAesthetics

@@ -1,6 +1,6 @@
  {
     "parent": "block/cube_all",
         "textures": {
-            "all": "railcraftaesthetics:blocks/bleachbone_chiseled"
+            "all": "railcraftaesthetics:blocks/bleachedbone_smooth"
       }
    }

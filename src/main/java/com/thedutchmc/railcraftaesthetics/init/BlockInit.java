@@ -40,12 +40,12 @@ public class BlockInit {
 	public static BlockBaseStone ANDESITE_CREEPER = new BlockBaseStone("andesite_creeper", Material.ROCK);
 	public static BlockBaseStone ANDESITE_COBBLESTONE = new BlockBaseStone("andesite_cobblestone", Material.ROCK);
 	
-	public static BlockBaseStone BLEACHBONE_BRICK = new BlockBaseStone("bleachbone_brick", Material.ROCK);
-	public static BlockBaseStone BLEACHBONE_SMALL_BRICK = new BlockBaseStone("bleachbone_small_brick", Material.ROCK);
-	public static BlockBaseStone BLEACHBONE_SMOOTH = new BlockBaseStone("bleachbone_smooth", Material.ROCK);
-	public static BlockBaseStone BLEACHBONE_CHISELED = new BlockBaseStone("bleachbone_chiseled", Material.ROCK);
-	public static BlockBaseStone BLEACHBONE_CREEPER = new BlockBaseStone("bleachbone_creeper", Material.ROCK);
-	public static BlockBaseStone BLEACHBONE_COBBLESTONE = new BlockBaseStone("bleachbone_cobblestone", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_BRICK = new BlockBaseStone("BLEACHEDBONE_brick", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_SMALL_BRICK = new BlockBaseStone("BLEACHEDBONE_small_brick", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_SMOOTH = new BlockBaseStone("BLEACHEDBONE_smooth", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_CHISELED = new BlockBaseStone("BLEACHEDBONE_chiseled", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_CREEPER = new BlockBaseStone("BLEACHEDBONE_creeper", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_COBBLESTONE = new BlockBaseStone("BLEACHEDBONE_cobblestone", Material.ROCK);
 	
 	public static BlockBaseStone BLOODSTAINED_BRICK = new BlockBaseStone("bloodstained_brick", Material.ROCK);
 	public static BlockBaseStone BLOODSTAINED_SMALL_BRICK = new BlockBaseStone("bloodstained_small_brick", Material.ROCK);
@@ -59,8 +59,8 @@ public class BlockInit {
         registry.registerAll(BRASS_BLOCK, BRONZE_BLOCK, COPPER_BLOCK, INVAR_BLOCK, LEAD_BLOCK, NICKEL_BLOCK, SILVER_BLOCK,
         		STEEL_BLOCK, TIN_BLOCK, ZINC_BLOCK, ABYSSAL_STONE, QUARRIED_STONE, CONCRETE, ABYSSAL_BRICK, ABYSSAL_SMALL_BRICK,
         		ABYSSAL_SMOOTH, ABYSSAL_CHISELED, ABYSSAL_CREEPER, ABYSSAL_COBBLESTONE, ANDESITE_BRICK, ANDESITE_SMALL_BRICK,
-        		ANDESITE_SMOOTH, ANDESITE_CHISELED, ANDESITE_CREEPER, ANDESITE_COBBLESTONE, BLEACHBONE_BRICK, BLEACHBONE_SMALL_BRICK,
-        		BLEACHBONE_SMOOTH, BLEACHBONE_CHISELED, BLEACHBONE_CREEPER, BLEACHBONE_COBBLESTONE, BLOODSTAINED_BRICK,
+        		ANDESITE_SMOOTH, ANDESITE_CHISELED, ANDESITE_CREEPER, ANDESITE_COBBLESTONE, BLEACHEDBONE_BRICK, BLEACHEDBONE_SMALL_BRICK,
+        		BLEACHEDBONE_SMOOTH, BLEACHEDBONE_CHISELED, BLEACHEDBONE_CREEPER, BLEACHEDBONE_COBBLESTONE, BLOODSTAINED_BRICK,
         		BLOODSTAINED_SMALL_BRICK, BLOODSTAINED_SMOOTH, BLOODSTAINED_CHISELED, BLOODSTAINED_CREEPER, BLOODSTAINED_COBBLESTONE);
     }
 
@@ -94,12 +94,12 @@ public class BlockInit {
     	ANDESITE_CREEPER.registerItemModel(Item.getItemFromBlock(ANDESITE_CREEPER));
     	ANDESITE_COBBLESTONE.registerItemModel(Item.getItemFromBlock(ANDESITE_COBBLESTONE));
     	
-    	BLEACHBONE_BRICK.registerItemModel(Item.getItemFromBlock(BLEACHBONE_BRICK));
-    	BLEACHBONE_SMALL_BRICK.registerItemModel(Item.getItemFromBlock(BLEACHBONE_SMALL_BRICK));
-    	BLEACHBONE_SMOOTH.registerItemModel(Item.getItemFromBlock(BLEACHBONE_SMOOTH));
-    	BLEACHBONE_CHISELED.registerItemModel(Item.getItemFromBlock(BLEACHBONE_CHISELED));
-    	BLEACHBONE_CREEPER.registerItemModel(Item.getItemFromBlock(BLEACHBONE_CREEPER));
-    	BLEACHBONE_COBBLESTONE.registerItemModel(Item.getItemFromBlock(BLEACHBONE_COBBLESTONE));
+    	BLEACHEDBONE_BRICK.registerItemModel(Item.getItemFromBlock(BLEACHEDBONE_BRICK));
+    	BLEACHEDBONE_SMALL_BRICK.registerItemModel(Item.getItemFromBlock(BLEACHEDBONE_SMALL_BRICK));
+    	BLEACHEDBONE_SMOOTH.registerItemModel(Item.getItemFromBlock(BLEACHEDBONE_SMOOTH));
+    	BLEACHEDBONE_CHISELED.registerItemModel(Item.getItemFromBlock(BLEACHEDBONE_CHISELED));
+    	BLEACHEDBONE_CREEPER.registerItemModel(Item.getItemFromBlock(BLEACHEDBONE_CREEPER));
+    	BLEACHEDBONE_COBBLESTONE.registerItemModel(Item.getItemFromBlock(BLEACHEDBONE_COBBLESTONE));
     	
     	BLOODSTAINED_BRICK.registerItemModel(Item.getItemFromBlock(BLOODSTAINED_BRICK));
     	BLOODSTAINED_SMALL_BRICK.registerItemModel(Item.getItemFromBlock(BLOODSTAINED_SMALL_BRICK));
@@ -141,12 +141,12 @@ public class BlockInit {
         registry.registerAll(new ItemBlock(ANDESITE_CREEPER).setRegistryName(ANDESITE_CREEPER.getRegistryName()));
         registry.registerAll(new ItemBlock(ANDESITE_COBBLESTONE).setRegistryName(ANDESITE_COBBLESTONE.getRegistryName()));
         
-        registry.registerAll(new ItemBlock(BLEACHBONE_BRICK).setRegistryName(BLEACHBONE_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHBONE_SMALL_BRICK).setRegistryName(BLEACHBONE_SMALL_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHBONE_SMOOTH).setRegistryName(BLEACHBONE_SMOOTH.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHBONE_CHISELED).setRegistryName(BLEACHBONE_CHISELED.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHBONE_CREEPER).setRegistryName(BLEACHBONE_CREEPER.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHBONE_COBBLESTONE).setRegistryName(BLEACHBONE_COBBLESTONE.getRegistryName()));
+        registry.registerAll(new ItemBlock(BLEACHEDBONE_BRICK).setRegistryName(BLEACHEDBONE_BRICK.getRegistryName()));
+        registry.registerAll(new ItemBlock(BLEACHEDBONE_SMALL_BRICK).setRegistryName(BLEACHEDBONE_SMALL_BRICK.getRegistryName()));
+        registry.registerAll(new ItemBlock(BLEACHEDBONE_SMOOTH).setRegistryName(BLEACHEDBONE_SMOOTH.getRegistryName()));
+        registry.registerAll(new ItemBlock(BLEACHEDBONE_CHISELED).setRegistryName(BLEACHEDBONE_CHISELED.getRegistryName()));
+        registry.registerAll(new ItemBlock(BLEACHEDBONE_CREEPER).setRegistryName(BLEACHEDBONE_CREEPER.getRegistryName()));
+        registry.registerAll(new ItemBlock(BLEACHEDBONE_COBBLESTONE).setRegistryName(BLEACHEDBONE_COBBLESTONE.getRegistryName()));
         
         registry.registerAll(new ItemBlock(BLOODSTAINED_BRICK).setRegistryName(BLOODSTAINED_BRICK.getRegistryName()));
         registry.registerAll(new ItemBlock(BLOODSTAINED_SMALL_BRICK).setRegistryName(BLOODSTAINED_SMALL_BRICK.getRegistryName()));

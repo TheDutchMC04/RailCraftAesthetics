@@ -27,12 +27,12 @@ tile.andesite_chiseled.name=Chiseled Andesite
 tile.andesite_creeper.name=Creeper-Chiseled Andesite
 tile.andesite_cobblestone.name=Andesite Cobblestone
 
-tile.bleachbone_brick.name=Bleachbone Brick
-tile.bleachbone_small_brick.name=Small Bleachbone Brick
-tile.bleachbone_smooth.name=Smooth Bleachbone
-tile.bleachbone_chiseled.name=Chiseled Bleachbone
-tile.bleachbone_creeper.name=Creeper-Chiseled Bleachbone
-tile.bleachbone_cobblestone.name=Bleachbone Cobblestone
+tile.bleachedbone_brick.name=Bleachedbone Brick
+tile.bleachedbone_small_brick.name=Small Bleachedbone Brick
+tile.bleachedbone_smooth.name=Smooth Bleachedbone
+tile.bleachedbone_chiseled.name=Chiseled Bleachedbone
+tile.bleachedbone_creeper.name=Creeper-Chiseled Bleachedbone
+tile.bleachedbone_cobblestone.name=Bleachedbone Cobblestone
 
 tile.bloodstained_brick.name=Bloodstained Brick
 tile.bloodstained_small_brick.name=Small Bloodstained Brick

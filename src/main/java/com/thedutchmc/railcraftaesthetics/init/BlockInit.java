@@ -20,6 +20,7 @@ import com.thedutchmc.railcraftaesthetics.block.stones.AbyssalCreeper;
 import com.thedutchmc.railcraftaesthetics.block.stones.AbyssalSmallBrick;
 import com.thedutchmc.railcraftaesthetics.block.stones.AbyssalSmooth;
 
+import com.thedutchmc.railcraftaesthetics.block.BlockBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
@@ -28,8 +29,8 @@ import net.minecraftforge.registries.IForgeRegistry;
 
 public class BlockInit {
 	
-	public static BrassBlock BRASS_BLOCK = new BrassBlock("brass_block", Material.IRON);
-	public static BronzeBlock BRONZE_BLOCK = new BronzeBlock("bronze_block", Material.IRON);
+	public static BlockBase BRASS_BLOCK = new BlockBase("brass_block", Material.IRON);
+	public static BlockBase BRONZE_BLOCK = new BronzeBlock("bronze_block", Material.IRON);
 	public static CopperBlock COPPER_BLOCK = new CopperBlock("copper_block", Material.IRON);
 	public static InvarBlock INVAR_BLOCK = new InvarBlock("invar_block", Material.IRON);
 	public static LeadBlock LEAD_BLOCK = new LeadBlock("lead_block", Material.IRON);

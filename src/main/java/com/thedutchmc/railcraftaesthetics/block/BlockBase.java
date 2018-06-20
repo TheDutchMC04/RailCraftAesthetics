@@ -6,13 +6,14 @@ import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 
-import com.thedutchmc.railcraftaesthetics.proxy.*;
+import com.thedutchmc.railcraftaesthetics.railcraftaesthetics;
+import com.thedutchmc.railcraftaesthetics.proxy.CommonProxy;
 
-class BlockBase extends Block {
+public class BlockBase extends Block {
 
     String name;
 
-    BlockBase(Material material, String name) {
+    public BlockBase( String name, Material material) {
         super(material);
 
         this.name = name;
@@ -21,7 +22,7 @@ class BlockBase extends Block {
     }
 
     public void registerItemModel(Item item) {
-        proxy.registerItemRenderer(item, 0, name);
+        railcraftaesthetics.proxy.registerItemRenderer(item, 0, name);
     }
 
     public Item createItemBlock() {

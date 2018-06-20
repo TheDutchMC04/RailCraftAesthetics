@@ -28,7 +28,7 @@ public class BlockInit {
 	
 	public static BlockBaseStone ABYSSAL_BRICK = new BlockBaseStone("abyssal_brick", Material.ROCK);
 	public static BlockBaseStone ABYSSAL_SMALL_BRICK = new BlockBaseStone("abyssal_small_brick", Material.ROCK);
-	public static BlockBaseStone ABYSSAL_SMOOTH = new BlockBaseStone("abbysal_smooth", Material.ROCK);
+	public static BlockBaseStone ABYSSAL_SMOOTH = new BlockBaseStone("abyssal_smooth", Material.ROCK);
 	public static BlockBaseStone ABYSSAL_CHISELED = new BlockBaseStone("abyssal_chiseled", Material.ROCK);
 	public static BlockBaseStone ABYSSAL_CREEPER = new BlockBaseStone("abyssal_creeper", Material.ROCK);
 	public static BlockBaseStone ABYSSAL_COBBLESTONE = new BlockBaseStone("abyssal_cobblestone", Material.ROCK);
@@ -112,48 +112,48 @@ public class BlockInit {
 
     public static void registerItemBlocks(IForgeRegistry<Item> registry) {
     	
-        registry.registerAll(new ItemBlock(BRASS_BLOCK).setRegistryName(BRASS_BLOCK.getRegistryName()));
-        registry.registerAll(new ItemBlock(BRONZE_BLOCK).setRegistryName(BRONZE_BLOCK.getRegistryName()));
-        registry.registerAll(new ItemBlock(COPPER_BLOCK).setRegistryName(COPPER_BLOCK.getRegistryName()));
-        registry.registerAll(new ItemBlock(INVAR_BLOCK).setRegistryName(INVAR_BLOCK.getRegistryName()));
-        registry.registerAll(new ItemBlock(LEAD_BLOCK).setRegistryName(LEAD_BLOCK.getRegistryName()));
-        registry.registerAll(new ItemBlock(NICKEL_BLOCK).setRegistryName(NICKEL_BLOCK.getRegistryName()));
-        registry.registerAll(new ItemBlock(SILVER_BLOCK).setRegistryName(SILVER_BLOCK.getRegistryName()));
-        registry.registerAll(new ItemBlock(STEEL_BLOCK).setRegistryName(STEEL_BLOCK.getRegistryName()));
-        registry.registerAll(new ItemBlock(TIN_BLOCK).setRegistryName(TIN_BLOCK.getRegistryName()));
-        registry.registerAll(new ItemBlock(ZINC_BLOCK).setRegistryName(ZINC_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(BRASS_BLOCK).setRegistryName(BRASS_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(BRONZE_BLOCK).setRegistryName(BRONZE_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(COPPER_BLOCK).setRegistryName(COPPER_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(INVAR_BLOCK).setRegistryName(INVAR_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(LEAD_BLOCK).setRegistryName(LEAD_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(NICKEL_BLOCK).setRegistryName(NICKEL_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(SILVER_BLOCK).setRegistryName(SILVER_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(STEEL_BLOCK).setRegistryName(STEEL_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(TIN_BLOCK).setRegistryName(TIN_BLOCK.getRegistryName()));
+        registry.register(new ItemBlock(ZINC_BLOCK).setRegistryName(ZINC_BLOCK.getRegistryName()));
         
-        registry.registerAll(new ItemBlock(ABYSSAL_STONE).setRegistryName(ABYSSAL_STONE.getRegistryName()));
-        registry.registerAll(new ItemBlock(QUARRIED_STONE).setRegistryName(QUARRIED_STONE.getRegistryName()));
-        registry.registerAll(new ItemBlock(CONCRETE).setRegistryName(CONCRETE.getRegistryName()));
+        registry.register(new ItemBlock(ABYSSAL_STONE).setRegistryName(ABYSSAL_STONE.getRegistryName()));
+        registry.register(new ItemBlock(QUARRIED_STONE).setRegistryName(QUARRIED_STONE.getRegistryName()));
+        registry.register(new ItemBlock(CONCRETE).setRegistryName(CONCRETE.getRegistryName()));
         
-        registry.registerAll(new ItemBlock(ABYSSAL_BRICK).setRegistryName(ABYSSAL_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(ABYSSAL_SMALL_BRICK).setRegistryName(ABYSSAL_SMALL_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(ABYSSAL_SMOOTH).setRegistryName(ABYSSAL_SMOOTH.getRegistryName()));
-        registry.registerAll(new ItemBlock(ABYSSAL_CHISELED).setRegistryName(ABYSSAL_CHISELED.getRegistryName()));
-        registry.registerAll(new ItemBlock(ABYSSAL_CREEPER).setRegistryName(ABYSSAL_CREEPER.getRegistryName()));
-        registry.registerAll(new ItemBlock(ABYSSAL_COBBLESTONE).setRegistryName(ABYSSAL_COBBLESTONE.getRegistryName()));
+        registry.register(new ItemBlock(ABYSSAL_BRICK).setRegistryName(ABYSSAL_BRICK.getRegistryName()));
+        registry.register(new ItemBlock(ABYSSAL_SMALL_BRICK).setRegistryName(ABYSSAL_SMALL_BRICK.getRegistryName()));
+        registry.register(new ItemBlock(ABYSSAL_SMOOTH).setRegistryName(ABYSSAL_SMOOTH.getRegistryName()));
+        registry.register(new ItemBlock(ABYSSAL_CHISELED).setRegistryName(ABYSSAL_CHISELED.getRegistryName()));
+        registry.register(new ItemBlock(ABYSSAL_CREEPER).setRegistryName(ABYSSAL_CREEPER.getRegistryName()));
+        registry.register(new ItemBlock(ABYSSAL_COBBLESTONE).setRegistryName(ABYSSAL_COBBLESTONE.getRegistryName()));
         
-        registry.registerAll(new ItemBlock(ANDESITE_BRICK).setRegistryName(ANDESITE_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(ANDESITE_SMALL_BRICK).setRegistryName(ANDESITE_SMALL_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(ANDESITE_SMOOTH).setRegistryName(ANDESITE_SMOOTH.getRegistryName()));
-        registry.registerAll(new ItemBlock(ANDESITE_CHISELED).setRegistryName(ANDESITE_CHISELED.getRegistryName()));
-        registry.registerAll(new ItemBlock(ANDESITE_CREEPER).setRegistryName(ANDESITE_CREEPER.getRegistryName()));
-        registry.registerAll(new ItemBlock(ANDESITE_COBBLESTONE).setRegistryName(ANDESITE_COBBLESTONE.getRegistryName()));
+        registry.register(new ItemBlock(ANDESITE_BRICK).setRegistryName(ANDESITE_BRICK.getRegistryName()));
+        registry.register(new ItemBlock(ANDESITE_SMALL_BRICK).setRegistryName(ANDESITE_SMALL_BRICK.getRegistryName()));
+        registry.register(new ItemBlock(ANDESITE_SMOOTH).setRegistryName(ANDESITE_SMOOTH.getRegistryName()));
+        registry.register(new ItemBlock(ANDESITE_CHISELED).setRegistryName(ANDESITE_CHISELED.getRegistryName()));
+        registry.register(new ItemBlock(ANDESITE_CREEPER).setRegistryName(ANDESITE_CREEPER.getRegistryName()));
+        registry.register(new ItemBlock(ANDESITE_COBBLESTONE).setRegistryName(ANDESITE_COBBLESTONE.getRegistryName()));
         
-        registry.registerAll(new ItemBlock(BLEACHEDBONE_BRICK).setRegistryName(BLEACHEDBONE_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHEDBONE_SMALL_BRICK).setRegistryName(BLEACHEDBONE_SMALL_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHEDBONE_SMOOTH).setRegistryName(BLEACHEDBONE_SMOOTH.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHEDBONE_CHISELED).setRegistryName(BLEACHEDBONE_CHISELED.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHEDBONE_CREEPER).setRegistryName(BLEACHEDBONE_CREEPER.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLEACHEDBONE_COBBLESTONE).setRegistryName(BLEACHEDBONE_COBBLESTONE.getRegistryName()));
+        registry.register(new ItemBlock(BLEACHEDBONE_BRICK).setRegistryName(BLEACHEDBONE_BRICK.getRegistryName()));
+        registry.register(new ItemBlock(BLEACHEDBONE_SMALL_BRICK).setRegistryName(BLEACHEDBONE_SMALL_BRICK.getRegistryName()));
+        registry.register(new ItemBlock(BLEACHEDBONE_SMOOTH).setRegistryName(BLEACHEDBONE_SMOOTH.getRegistryName()));
+        registry.register(new ItemBlock(BLEACHEDBONE_CHISELED).setRegistryName(BLEACHEDBONE_CHISELED.getRegistryName()));
+        registry.register(new ItemBlock(BLEACHEDBONE_CREEPER).setRegistryName(BLEACHEDBONE_CREEPER.getRegistryName()));
+        registry.register(new ItemBlock(BLEACHEDBONE_COBBLESTONE).setRegistryName(BLEACHEDBONE_COBBLESTONE.getRegistryName()));
         
-        registry.registerAll(new ItemBlock(BLOODSTAINED_BRICK).setRegistryName(BLOODSTAINED_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLOODSTAINED_SMALL_BRICK).setRegistryName(BLOODSTAINED_SMALL_BRICK.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLOODSTAINED_SMOOTH).setRegistryName(BLOODSTAINED_SMOOTH.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLOODSTAINED_CHISELED).setRegistryName(BLOODSTAINED_CHISELED.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLOODSTAINED_CREEPER).setRegistryName(BLOODSTAINED_CREEPER.getRegistryName()));
-        registry.registerAll(new ItemBlock(BLOODSTAINED_COBBLESTONE).setRegistryName(BLOODSTAINED_COBBLESTONE.getRegistryName()));
+        registry.register(new ItemBlock(BLOODSTAINED_BRICK).setRegistryName(BLOODSTAINED_BRICK.getRegistryName()));
+        registry.register(new ItemBlock(BLOODSTAINED_SMALL_BRICK).setRegistryName(BLOODSTAINED_SMALL_BRICK.getRegistryName()));
+        registry.register(new ItemBlock(BLOODSTAINED_SMOOTH).setRegistryName(BLOODSTAINED_SMOOTH.getRegistryName()));
+        registry.register(new ItemBlock(BLOODSTAINED_CHISELED).setRegistryName(BLOODSTAINED_CHISELED.getRegistryName()));
+        registry.register(new ItemBlock(BLOODSTAINED_CREEPER).setRegistryName(BLOODSTAINED_CREEPER.getRegistryName()));
+        registry.register(new ItemBlock(BLOODSTAINED_COBBLESTONE).setRegistryName(BLOODSTAINED_COBBLESTONE.getRegistryName()));
         
     }
 }

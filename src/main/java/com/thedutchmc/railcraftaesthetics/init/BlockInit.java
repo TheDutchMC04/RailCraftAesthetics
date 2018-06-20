@@ -40,12 +40,12 @@ public class BlockInit {
 	public static BlockBaseStone ANDESITE_CREEPER = new BlockBaseStone("andesite_creeper", Material.ROCK);
 	public static BlockBaseStone ANDESITE_COBBLESTONE = new BlockBaseStone("andesite_cobblestone", Material.ROCK);
 	
-	public static BlockBaseStone BLEACHEDBONE_BRICK = new BlockBaseStone("BLEACHEDBONE_brick", Material.ROCK);
-	public static BlockBaseStone BLEACHEDBONE_SMALL_BRICK = new BlockBaseStone("BLEACHEDBONE_small_brick", Material.ROCK);
-	public static BlockBaseStone BLEACHEDBONE_SMOOTH = new BlockBaseStone("BLEACHEDBONE_smooth", Material.ROCK);
-	public static BlockBaseStone BLEACHEDBONE_CHISELED = new BlockBaseStone("BLEACHEDBONE_chiseled", Material.ROCK);
-	public static BlockBaseStone BLEACHEDBONE_CREEPER = new BlockBaseStone("BLEACHEDBONE_creeper", Material.ROCK);
-	public static BlockBaseStone BLEACHEDBONE_COBBLESTONE = new BlockBaseStone("BLEACHEDBONE_cobblestone", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_BRICK = new BlockBaseStone("bleachedbone_brick", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_SMALL_BRICK = new BlockBaseStone("bleachedbone_small_brick", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_SMOOTH = new BlockBaseStone("bleachedbone_smooth", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_CHISELED = new BlockBaseStone("bleachedbone_chiseled", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_CREEPER = new BlockBaseStone("bleachedbone_creeper", Material.ROCK);
+	public static BlockBaseStone BLEACHEDBONE_COBBLESTONE = new BlockBaseStone("bleachedbone_cobblestone", Material.ROCK);
 	
 	public static BlockBaseStone BLOODSTAINED_BRICK = new BlockBaseStone("bloodstained_brick", Material.ROCK);
 	public static BlockBaseStone BLOODSTAINED_SMALL_BRICK = new BlockBaseStone("bloodstained_small_brick", Material.ROCK);

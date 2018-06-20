@@ -9,19 +9,19 @@ import net.minecraft.item.ItemBlock;
 import com.thedutchmc.railcraftaesthetics.railcraftaesthetics;
 import com.thedutchmc.railcraftaesthetics.proxy.CommonProxy;
 
-public class BlockBase extends Block {
+public class BlockBaseStone extends Block {
 
     String name;
 
-    public BlockBase( String name, Material material) {
+    public BlockBaseStone( String name, Material material) {
         super(material);
 
         this.name = name;
         setUnlocalizedName(name);
         setRegistryName(name);
-        setHardness(5F);
+        setHardness(1.5F);
         setCreativeTab(railcraftaesthetics.railcraftaestheticstab);
-        setHarvestLevel("pickaxe", 2);
+        setHarvestLevel("pickaxe", 0);
     }
 
     public void registerItemModel(Item item) {

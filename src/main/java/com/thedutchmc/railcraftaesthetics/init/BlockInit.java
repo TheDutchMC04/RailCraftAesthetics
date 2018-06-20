@@ -1,26 +1,8 @@
 package com.thedutchmc.railcraftaesthetics.init;
 
-import com.thedutchmc.railcraftaesthetics.block.AbyssalStone;
-import com.thedutchmc.railcraftaesthetics.block.Concrete;
-import com.thedutchmc.railcraftaesthetics.block.QuarriedStone;
-import com.thedutchmc.railcraftaesthetics.block.metal.BrassBlock;
-import com.thedutchmc.railcraftaesthetics.block.metal.BronzeBlock;
-import com.thedutchmc.railcraftaesthetics.block.metal.CopperBlock;
-import com.thedutchmc.railcraftaesthetics.block.metal.InvarBlock;
-import com.thedutchmc.railcraftaesthetics.block.metal.LeadBlock;
-import com.thedutchmc.railcraftaesthetics.block.metal.NickelBlock;
-import com.thedutchmc.railcraftaesthetics.block.metal.SilverBlock;
-import com.thedutchmc.railcraftaesthetics.block.metal.SteelBlock;
-import com.thedutchmc.railcraftaesthetics.block.metal.TinBlock;
-import com.thedutchmc.railcraftaesthetics.block.metal.ZincBlock;
-import com.thedutchmc.railcraftaesthetics.block.stones.AbyssalBrick;
-import com.thedutchmc.railcraftaesthetics.block.stones.AbyssalChiseled;
-import com.thedutchmc.railcraftaesthetics.block.stones.AbyssalCobblestone;
-import com.thedutchmc.railcraftaesthetics.block.stones.AbyssalCreeper;
-import com.thedutchmc.railcraftaesthetics.block.stones.AbyssalSmallBrick;
-import com.thedutchmc.railcraftaesthetics.block.stones.AbyssalSmooth;
-
 import com.thedutchmc.railcraftaesthetics.block.BlockBase;
+import com.thedutchmc.railcraftaesthetics.block.BlockBaseStone;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.item.Item;
@@ -30,47 +12,47 @@ import net.minecraftforge.registries.IForgeRegistry;
 public class BlockInit {
 	
 	public static BlockBase BRASS_BLOCK = new BlockBase("brass_block", Material.IRON);
-	public static BlockBase BRONZE_BLOCK = new BronzeBlock("bronze_block", Material.IRON);
-	public static CopperBlock COPPER_BLOCK = new CopperBlock("copper_block", Material.IRON);
-	public static InvarBlock INVAR_BLOCK = new InvarBlock("invar_block", Material.IRON);
-	public static LeadBlock LEAD_BLOCK = new LeadBlock("lead_block", Material.IRON);
-	public static NickelBlock NICKEL_BLOCK = new NickelBlock("nickel_block", Material.IRON);
-	public static SilverBlock SILVER_BLOCK = new SilverBlock("silver_block", Material.IRON);
-	public static SteelBlock STEEL_BLOCK = new SteelBlock("steel_block", Material.IRON);
-	public static TinBlock TIN_BLOCK = new TinBlock("tin_block", Material.IRON);
-	public static ZincBlock ZINC_BLOCK = new ZincBlock("zinc_block", Material.IRON);
+	public static BlockBase BRONZE_BLOCK = new BlockBase("bronze_block", Material.IRON);
+	public static BlockBase COPPER_BLOCK = new BlockBase("copper_block", Material.IRON);
+	public static BlockBase INVAR_BLOCK = new BlockBase("invar_block", Material.IRON);
+	public static BlockBase LEAD_BLOCK = new BlockBase("lead_block", Material.IRON);
+	public static BlockBase NICKEL_BLOCK = new BlockBase("nickel_block", Material.IRON);
+	public static BlockBase SILVER_BLOCK = new BlockBase("silver_block", Material.IRON);
+	public static BlockBase STEEL_BLOCK = new BlockBase("steel_block", Material.IRON);
+	public static BlockBase TIN_BLOCK = new BlockBase("tin_block", Material.IRON);
+	public static BlockBase ZINC_BLOCK = new BlockBase("zinc_block", Material.IRON);
 	
-	public static AbyssalStone ABYSSAL_STONE = new AbyssalStone("abyssal_stone", Material.ROCK);
-	public static QuarriedStone QUARRIED_STONE = new QuarriedStone("quarried_stone", Material.ROCK);
-	public static Concrete CONCRETE = new Concrete("concrete", Material.ROCK);
+	public static BlockBaseStone ABYSSAL_STONE = new BlockBaseStone("abyssal_stone", Material.ROCK);
+	public static BlockBaseStone QUARRIED_STONE = new BlockBaseStone("quarried_stone", Material.ROCK);
+	public static BlockBaseStone CONCRETE = new BlockBaseStone("concrete", Material.ROCK);
 	
-	public static AbyssalBrick ABYSSAL_BRICK = new AbyssalBrick("abyssal_brick", Material.ROCK);
-	public static AbyssalSmallBrick ABYSSAL_SMALL_BRICK = new AbyssalSmallBrick("abyssal_small_brick", Material.ROCK);
-	public static AbyssalSmooth ABYSSAL_SMOOTH = new AbyssalSmooth("abbysal_smooth", Material.ROCK);
-	public static AbyssalChiseled ABYSSAL_CHISELED = new AbyssalChiseled("abyssal_chiseled", Material.ROCK);
-	public static AbyssalCreeper ABYSSAL_CREEPER = new AbyssalCreeper("abyssal_creeper", Material.ROCK);
-	public static AbyssalCobblestone ABYSSAL_COBBLESTONE = new AbyssalCobblestone("abyssal_cobblestone", Material.ROCK);
+	public static BlockBaseStone ABYSSAL_BRICK = new BlockBaseStone("abyssal_brick", Material.ROCK);
+	public static BlockBaseStone ABYSSAL_SMALL_BRICK = new BlockBaseStone("abyssal_small_brick", Material.ROCK);
+	public static BlockBaseStone ABYSSAL_SMOOTH = new BlockBaseStone("abbysal_smooth", Material.ROCK);
+	public static BlockBaseStone ABYSSAL_CHISELED = new BlockBaseStone("abyssal_chiseled", Material.ROCK);
+	public static BlockBaseStone ABYSSAL_CREEPER = new BlockBaseStone("abyssal_creeper", Material.ROCK);
+	public static BlockBaseStone ABYSSAL_COBBLESTONE = new BlockBaseStone("abyssal_cobblestone", Material.ROCK);
 	
-	public static AndesiteBrick ANDESITE_BRICK = new AndesiteBrick("andesite_brick", Material.ROCK);
-	public static AndesiteSmallBrick ANDESITE_SMALL_BRICK = new AndesiteSmallBrick("andesite_small_brick", Material.ROCK);
-	public static AndesiteSmooth ANDESITE_SMOOTH = new AndesiteSmooth("andesite_smooth", Material.ROCK);
-	public static AndesiteChiseled ANDESITE_CHISELED = new AndesiteChiseled("andesite_chiseled", Material.ROCK);
-	public static AndesiteCreeper ANDESITE_CREEPER = new AndesiteCreeper("andesite_creeper", Material.ROCK);
-	public static AndesiteCobblestone ANDESITE_COBBLESTONE = new AndesiteCobblestone("andesite_cobblestone", Material.ROCK);
+	public static BlockBaseStone ANDESITE_BRICK = new BlockBaseStone("andesite_brick", Material.ROCK);
+	public static BlockBaseStone ANDESITE_SMALL_BRICK = new BlockBaseStone("andesite_small_brick", Material.ROCK);
+	public static BlockBaseStone ANDESITE_SMOOTH = new BlockBaseStone("andesite_smooth", Material.ROCK);
+	public static BlockBaseStone ANDESITE_CHISELED = new BlockBaseStone("andesite_chiseled", Material.ROCK);
+	public static BlockBaseStone ANDESITE_CREEPER = new BlockBaseStone("andesite_creeper", Material.ROCK);
+	public static BlockBaseStone ANDESITE_COBBLESTONE = new BlockBaseStone("andesite_cobblestone", Material.ROCK);
 	
-	public static BleachboneBrick BLEACHBONE_BRICK = new BleachboneBrick("bleachbone_brick", Material.ROCK);
-	public static BleachboneSmallBrick BLEACHBONE_SMALL_BRICK = new BleachboneSmallBrick("bleachbone_small_brick", Material.ROCK);
-	public static BleachboneSmooth BLEACHBONE_SMOOTH = new BleachboneSmooth("bleachbone_smooth", Material.ROCK);
-	public static BleachboneChiseled BLEACHBONE_CHISELED = new BleachboneChiseled("bleachbone_chiseled", Material.ROCK);
-	public static BleachboneCreeper BLEACHBONE_CREEPER = new BleachboneCreeper("bleachbone_creeper", Material.ROCK);
-	public static BleachboneCobblestone BLEACHBONE_COBBLESTONE = new BleachboneCobblestone("bleachbone_cobblestone", Material.ROCK);
+	public static BlockBaseStone BLEACHBONE_BRICK = new BlockBaseStone("bleachbone_brick", Material.ROCK);
+	public static BlockBaseStone BLEACHBONE_SMALL_BRICK = new BlockBaseStone("bleachbone_small_brick", Material.ROCK);
+	public static BlockBaseStone BLEACHBONE_SMOOTH = new BlockBaseStone("bleachbone_smooth", Material.ROCK);
+	public static BlockBaseStone BLEACHBONE_CHISELED = new BlockBaseStone("bleachbone_chiseled", Material.ROCK);
+	public static BlockBaseStone BLEACHBONE_CREEPER = new BlockBaseStone("bleachbone_creeper", Material.ROCK);
+	public static BlockBaseStone BLEACHBONE_COBBLESTONE = new BlockBaseStone("bleachbone_cobblestone", Material.ROCK);
 	
-	public static BloodstainedBrick BLOODSTAINED_BRICK = new BloodstainedBrick("bloodstained_brick", Material.ROCK);
-	public static BloodstainedSmallBrick BLOODSTAINED_SMALL_BRICK = new BloodstainedSmallBrick("bloodstained_small_brick", Material.ROCK);
-	public static BloodstainedSmooth BLOODSTAINED_SMOOTH = new BloodstainedSmooth("bloodstained_smooth", Material.ROCK);
-	public static BloodstainedChiseled BLOODSTAINED_CHISELED = new BloodstainedChiseled("bloodstained_chiseled", Material.ROCK);
-	public static BloodstainedCreeper BLOODSTAINED_CREEPER = new BloodstainedCreeper("bloodstained_creeper", Material.ROCK);
-	public static BloodstainedCobblestone BLOODSTAINED_COBBLESTONE = new BloodstainedCobblestone("bloodstained_cobblestone", Material.ROCK);
+	public static BlockBaseStone BLOODSTAINED_BRICK = new BlockBaseStone("bloodstained_brick", Material.ROCK);
+	public static BlockBaseStone BLOODSTAINED_SMALL_BRICK = new BlockBaseStone("bloodstained_small_brick", Material.ROCK);
+	public static BlockBaseStone BLOODSTAINED_SMOOTH = new BlockBaseStone("bloodstained_smooth", Material.ROCK);
+	public static BlockBaseStone BLOODSTAINED_CHISELED = new BlockBaseStone("bloodstained_chiseled", Material.ROCK);
+	public static BlockBaseStone BLOODSTAINED_CREEPER = new BlockBaseStone("bloodstained_creeper", Material.ROCK);
+	public static BlockBaseStone BLOODSTAINED_COBBLESTONE = new BlockBaseStone("bloodstained_cobblestone", Material.ROCK);
 	
     public static void register(IForgeRegistry<Block> registry) {
     	
@@ -83,34 +65,48 @@ public class BlockInit {
     }
 
     public static void registerModels() {
-    	BRASS_BLOCK.registerItemModel();
-    	BRONZE_BLOCK.registerItemModel();
-    	COPPER_BLOCK.registerItemModel();
-    	INVAR_BLOCK.registerItemModel();
-    	LEAD_BLOCK.registerItemModel();
-    	NICKEL_BLOCK.registerItemModel();
-    	SILVER_BLOCK.registerItemModel();
-    	STEEL_BLOCK.registerItemModel();
-    	TIN_BLOCK.registerItemModel();
-    	ZINC_BLOCK.registerItemModel();
+    	BRASS_BLOCK.registerItemModel(Item.getItemFromBlock(BRASS_BLOCK));
+    	BRONZE_BLOCK.registerItemModel(Item.getItemFromBlock(BRONZE_BLOCK));
+    	COPPER_BLOCK.registerItemModel(Item.getItemFromBlock(COPPER_BLOCK));
+    	INVAR_BLOCK.registerItemModel(Item.getItemFromBlock(INVAR_BLOCK));
+    	LEAD_BLOCK.registerItemModel(Item.getItemFromBlock(LEAD_BLOCK));
+    	NICKEL_BLOCK.registerItemModel(Item.getItemFromBlock(NICKEL_BLOCK));
+    	SILVER_BLOCK.registerItemModel(Item.getItemFromBlock(SILVER_BLOCK));
+    	STEEL_BLOCK.registerItemModel(Item.getItemFromBlock(STEEL_BLOCK));
+    	TIN_BLOCK.registerItemModel(Item.getItemFromBlock(TIN_BLOCK));
+    	ZINC_BLOCK.registerItemModel(Item.getItemFromBlock(ZINC_BLOCK));
     	
-    	ABYSSAL_STONE.registerItemModel();
-    	QUARRIED_STONE.registerItemModel();
-    	CONCRETE.registerItemModel();
+    	ABYSSAL_STONE.registerItemModel(Item.getItemFromBlock(ABYSSAL_STONE));
+    	QUARRIED_STONE.registerItemModel(Item.getItemFromBlock(QUARRIED_STONE));
+    	CONCRETE.registerItemModel(Item.getItemFromBlock(CONCRETE));
     	
-    	ABYSSAL_BRICK.registerItemModel();
-    	ABYSSAL_SMALL_BRICK.registerItemModel();
-    	ABYSSAL_SMOOTH.registerItemModel();
-    	ABYSSAL_CHISELED.registerItemModel();
-    	ABYSSAL_CREEPER.registerItemModel();
-    	ABYSSAL_COBBLESTONE.registerItemModel();
+    	ABYSSAL_BRICK.registerItemModel(Item.getItemFromBlock(ABYSSAL_BRICK));
+    	ABYSSAL_SMALL_BRICK.registerItemModel(Item.getItemFromBlock(ABYSSAL_SMALL_BRICK));
+    	ABYSSAL_SMOOTH.registerItemModel(Item.getItemFromBlock(ABYSSAL_SMOOTH));
+    	ABYSSAL_CHISELED.registerItemModel(Item.getItemFromBlock(ABYSSAL_CHISELED));
+    	ABYSSAL_CREEPER.registerItemModel(Item.getItemFromBlock(ABYSSAL_CREEPER));
+    	ABYSSAL_COBBLESTONE.registerItemModel(Item.getItemFromBlock(ABYSSAL_COBBLESTONE));
     	
-    	ANDESITE_BRICK.registerItemModel();
-    	ANDESITE_SMALL_BRICK.registerItemModel();
-    	ANDESITE_SMOOTH.registerItemModel();
-    	ANDESITE_CHISELED.registerItemModel();
-    	ANDESITE_CREEPER.registerItemModel();
-    	ANDESITE_COBBLESTONE.registerItemModel();
+    	ANDESITE_BRICK.registerItemModel(Item.getItemFromBlock(ANDESITE_BRICK));
+    	ANDESITE_SMALL_BRICK.registerItemModel(Item.getItemFromBlock(ANDESITE_SMALL_BRICK));
+    	ANDESITE_SMOOTH.registerItemModel(Item.getItemFromBlock(ANDESITE_SMOOTH));
+    	ANDESITE_CHISELED.registerItemModel(Item.getItemFromBlock(ANDESITE_CHISELED));
+    	ANDESITE_CREEPER.registerItemModel(Item.getItemFromBlock(ANDESITE_CREEPER));
+    	ANDESITE_COBBLESTONE.registerItemModel(Item.getItemFromBlock(ANDESITE_COBBLESTONE));
+    	
+    	BLEACHBONE_BRICK.registerItemModel(Item.getItemFromBlock(BLEACHBONE_BRICK));
+    	BLEACHBONE_SMALL_BRICK.registerItemModel(Item.getItemFromBlock(BLEACHBONE_SMALL_BRICK));
+    	BLEACHBONE_SMOOTH.registerItemModel(Item.getItemFromBlock(BLEACHBONE_SMOOTH));
+    	BLEACHBONE_CHISELED.registerItemModel(Item.getItemFromBlock(BLEACHBONE_CHISELED));
+    	BLEACHBONE_CREEPER.registerItemModel(Item.getItemFromBlock(BLEACHBONE_CREEPER));
+    	BLEACHBONE_COBBLESTONE.registerItemModel(Item.getItemFromBlock(BLEACHBONE_COBBLESTONE));
+    	
+    	BLOODSTAINED_BRICK.registerItemModel(Item.getItemFromBlock(BLOODSTAINED_BRICK));
+    	BLOODSTAINED_SMALL_BRICK.registerItemModel(Item.getItemFromBlock(BLOODSTAINED_SMALL_BRICK));
+    	BLOODSTAINED_SMOOTH.registerItemModel(Item.getItemFromBlock(BLOODSTAINED_SMOOTH));
+    	BLOODSTAINED_CHISELED.registerItemModel(Item.getItemFromBlock(BLOODSTAINED_CHISELED));
+    	BLOODSTAINED_CREEPER.registerItemModel(Item.getItemFromBlock(BLOODSTAINED_CREEPER));
+    	BLOODSTAINED_COBBLESTONE.registerItemModel(Item.getItemFromBlock(BLOODSTAINED_COBBLESTONE));
     	
     }
 
@@ -160,5 +156,4 @@ public class BlockInit {
         registry.registerAll(new ItemBlock(BLOODSTAINED_COBBLESTONE).setRegistryName(BLOODSTAINED_COBBLESTONE.getRegistryName()));
         
     }
-    
 }

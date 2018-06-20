@@ -8,9 +8,38 @@ tile.silver_block.name=Silver Block
 tile.steel_block.name=Steel Block
 tile.tin_block.name=Tin Block
 tile.zinc_block.name=Zinc Block
+
 tile.abyssal_stone.name=Abyssal Stone
 tile.quarried_stone.name=Quarried Stone
 tile.concrete.name=Concrete
+
+tile.abyssal_brick.name=Abyssal Bricks
+tile.abyssal_small_brick.name=Small Abyssal Bricks
+tile.abyssal_smooth.name=Smooth Abyssal
+tile.abyssal_chiseled.name=Chiseled Abyssal
+tile.abyssal_creeper.name=Creeper-Chiseled Abyssal
+tile.abyssal_cobblestone.name=Abyssal Cobblestone
+
+tile.andesite_brick.name=Andesite Brick
+tile.andesite_small_brick.name=Small Andesite Brick
+tile.andesite_smooth.name=Smooth Andesite
+tile.andesite_chiseled.name=Chiseled Andesite
+tile.andesite_creeper.name=Creeper-Chiseled Andesite
+tile.andesite_cobblestone.name=Andesite Cobblestone
+
+tile.bleachbone_brick.name=Bleachbone Brick
+tile.bleachbone_small_brick.name=Small Bleachbone Brick
+tile.bleachbone_smooth.name=Smooth Bleachbone
+tile.bleachbone_chiseled.name=Chiseled Bleachbone
+tile.bleachbone_creeper.name=Creeper-Chiseled Bleachbone
+tile.bleachbone_cobblestone.name=Bleachbone Cobblestone
+
+tile.bloodstained_brick.name=Bloodstained Brick
+tile.bloodstained_small_brick.name=Small Bloodstained Brick
+tile.bloodstained_smooth.name=Smooth Bloodstained
+tile.bloodstained_chiseled.name=Chiseled Bloodstained
+tile.bloodstained_creeper.name=Creeper-Chiseled Bloodstained
+tile.bloodstained_cobblestone.name=Bloodstained Cobblestone
 
 item.bronze_ingot.name=Bronze Ingot
 

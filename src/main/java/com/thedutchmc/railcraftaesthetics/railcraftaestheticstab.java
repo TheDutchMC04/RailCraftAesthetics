@@ -8,7 +8,6 @@ import net.minecraft.item.ItemStack;
 
 import com.thedutchmc.railcraftaesthetics.init.BlockInit;
 import com.thedutchmc.railcraftaesthetics.init.ItemInit;
-import com.thedutchmc.railcraftaesthetics.item.BronzeIngot;
 import com.thedutchmc.railcraftaesthetics.railcraftaesthetics;
 
 class railcraftaestheticstab extends CreativeTabs {

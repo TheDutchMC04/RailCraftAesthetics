@@ -89,12 +89,12 @@ public class BlockInit {
 	public static BlockBaseStone NETHER_CREEPER = new BlockBaseStone("nether_creeper", Material.ROCK);
 	public static BlockBaseStone NETHER_COBBLESTONE = new BlockBaseStone("nether_cobblestone", Material.ROCK);
 	
-	public static BlockBaseStone PEARLIZED_BRICK = new BlockBaseStone("diorite_brick", Material.ROCK);
-	public static BlockBaseStone PEARLIZED_SMALL_BRICK = new BlockBaseStone("diorite_small_brick", Material.ROCK);
-	public static BlockBaseStone PEARLIZED_SMOOTH = new BlockBaseStone("diorite_smooth", Material.ROCK);
-	public static BlockBaseStone PEARLIZED_CHISELED = new BlockBaseStone("diorite_chiseled", Material.ROCK);
-	public static BlockBaseStone PEARLIZED_CREEPER = new BlockBaseStone("diorite_creeper", Material.ROCK);
-	public static BlockBaseStone PEARLIZED_COBBLESTONE = new BlockBaseStone("diorite_cobblestone", Material.ROCK);
+	public static BlockBaseStone PEARLIZED_BRICK = new BlockBaseStone("pearlized_brick", Material.ROCK);
+	public static BlockBaseStone PEARLIZED_SMALL_BRICK = new BlockBaseStone("pearlized_small_brick", Material.ROCK);
+	public static BlockBaseStone PEARLIZED_SMOOTH = new BlockBaseStone("pearlized_smooth", Material.ROCK);
+	public static BlockBaseStone PEARLIZED_CHISELED = new BlockBaseStone("pearlized_chiseled", Material.ROCK);
+	public static BlockBaseStone PEARLIZED_CREEPER = new BlockBaseStone("pearlized_creeper", Material.ROCK);
+	public static BlockBaseStone PEARLIZED_COBBLESTONE = new BlockBaseStone("pearlized_cobblestone", Material.ROCK);
 	
 	public static BlockBaseStone QUARRIED_BRICK = new BlockBaseStone("quarried_brick", Material.ROCK);
 	public static BlockBaseStone QUARRIED_SMALL_BRICK = new BlockBaseStone("quarried_small_brick", Material.ROCK);

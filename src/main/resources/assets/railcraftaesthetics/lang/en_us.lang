@@ -15,31 +15,101 @@ tile.concrete.name=Concrete
 
 tile.abyssal_brick.name=Abyssal Bricks
 tile.abyssal_small_brick.name=Small Abyssal Bricks
-tile.abyssal_smooth.name=Smooth Abyssal
-tile.abyssal_chiseled.name=Chiseled Abyssal
-tile.abyssal_creeper.name=Creeper-Chiseled Abyssal
+tile.abyssal_smooth.name=Smooth Abyssal Brick
+tile.abyssal_chiseled.name=Chiseled Abyssal Brick
+tile.abyssal_creeper.name=Creeper-Chiseled Abyssal Brick
 tile.abyssal_cobblestone.name=Abyssal Cobblestone
 
 tile.andesite_brick.name=Andesite Brick
 tile.andesite_small_brick.name=Small Andesite Brick
-tile.andesite_smooth.name=Smooth Andesite
-tile.andesite_chiseled.name=Chiseled Andesite
-tile.andesite_creeper.name=Creeper-Chiseled Andesite
+tile.andesite_smooth.name=Smooth Andesite Brick
+tile.andesite_chiseled.name=Chiseled Andesite Brick
+tile.andesite_creeper.name=Creeper-Chiseled Andesite Brick
 tile.andesite_cobblestone.name=Andesite Cobblestone
 
 tile.bleachedbone_brick.name=Bleachedbone Brick
 tile.bleachedbone_small_brick.name=Small Bleachedbone Brick
-tile.bleachedbone_smooth.name=Smooth Bleachedbone
-tile.bleachedbone_chiseled.name=Chiseled Bleachedbone
-tile.bleachedbone_creeper.name=Creeper-Chiseled Bleachedbone
+tile.bleachedbone_smooth.name=Smooth Bleachedbone Brick
+tile.bleachedbone_chiseled.name=Chiseled Bleachedbone Brick
+tile.bleachedbone_creeper.name=Creeper-Chiseled Bleachedbone Brick
 tile.bleachedbone_cobblestone.name=Bleachedbone Cobblestone
 
 tile.bloodstained_brick.name=Bloodstained Brick
 tile.bloodstained_small_brick.name=Small Bloodstained Brick
-tile.bloodstained_smooth.name=Smooth Bloodstained
-tile.bloodstained_chiseled.name=Chiseled Bloodstained
-tile.bloodstained_creeper.name=Creeper-Chiseled Bloodstained
+tile.bloodstained_smooth.name=Smooth Bloodstained Brick
+tile.bloodstained_chiseled.name=Chiseled Bloodstained Brick
+tile.bloodstained_creeper.name=Creeper-Chiseled Bloodstained Brick
 tile.bloodstained_cobblestone.name=Bloodstained Cobblestone
+
+tile.diorite_brick.name=Diorite Brick
+tile.diorite_small_brick.name=Small Diorite Brick
+tile.diorite_smooth.name=Smooth Diorite Brick
+tile.diorite_chiseled.name=Chiseled Diorite Brick
+tile.diorite_creeper.name=Creeper-Chiseled Diorite Brick
+tile.diorite_cobblestone.name=Diorite Cobblestone
+
+tile.granite_brick.name=Granite Brick
+tile.granite_small_brick.name=Small Granite Brick
+tile.granite_smooth.name=Smooth Granite Brick
+tile.granite_chiseled.name=Chiseled Granite Brick
+tile.granite_creeper.name=Creeper-Chiseled Granite Brick
+tile.granite_cobblestone.name=Granite Cobblestone
+
+tile.frostbound_brick.name=Frostbound Brick
+tile.frostbound_small_brick.name=Small Frostbound Brick
+tile.frostbound_smooth.name=Smooth Frostbound Brick
+tile.frostbound_chiseled.name=Chiseled Frostbound Brick
+tile.frostbound_creeper.name=Creeper-Chiseled Frostbound Brick
+tile.frostbound_cobblestone.name=Frostbound Cobblestone
+
+tile.infernal_brick.name=Infernal Brick
+tile.infernal_small_brick.name=Small Infernal Brick
+tile.infernal_smooth.name=Smooth Infernal Brick
+tile.infernal_chiseled.name=Chiseled Infernal Brick
+tile.infernal_creeper.name=Creeper-Chiseled Infernal Brick
+tile.infernal_cobblestone.name=Infernal Cobblestone
+
+tile.nether_brick.name=Nether Brick
+tile.nether_small_brick.name=Small Nether Brick
+tile.nether_smooth.name=Smooth Nether Brick
+tile.nether_chiseled.name=Chiseled Nether Brick
+tile.nether_creeper.name=Creeper-Chiseled Nether Brick
+tile.nether_cobblestone.name=Nether Cobblestone
+
+tile.pearlized_brick.name=Pearlized Brick
+tile.pearlized_small_brick.name=Small Pearlized Brick
+tile.pearlized_smooth.name=Smooth Pearlized Brick
+tile.pearlized_chiseled.name=Chiseled Pearlized Brick
+tile.pearlized_creeper.name=Creeper-Chiseled Pearlized Brick
+tile.pearlized_cobblestone.name=Pearlized Cobblestone
+
+tile.quarried_brick.name=Quarried Brick
+tile.quarried_small_brick.name=Small Quarried Brick
+tile.quarried_smooth.name=Smooth Quarried Brick
+tile.quarried_chiseled.name=Chiseled Quarried Brick
+tile.quarried_creeper.name=Creeper-Chiseled Quarried Brick
+tile.quarried_cobblestone.name=Quarried Cobblestone
+
+tile.rednether_brick.name=Red Nether Brick
+tile.rednether_small_brick.name=Small Red Nether Brick
+tile.rednether_smooth.name=Smooth Red Nether Brick
+tile.rednether_chiseled.name=Chiseled Red Nether Brick
+tile.rednether_creeper.name=Creeper-Chiseled Red Nether Brick
+tile.rednether_cobblestone.name=Red Nether Cobblestone
+
+tile.redsandy_brick.name=Red Sandy Brick
+tile.redsandy_small_brick.name=Small Red Sandy Brick
+tile.redsandy_smooth.name=Smooth Red Sandy Brick
+tile.redsandy_chiseled.name=Chiseled Red Sandy Brick
+tile.redsandy_creeper.name=Creeper-Chiseled Red Sandy Brick
+tile.redsandy_cobblestone.name=Red Sandy Cobblestone
+
+tile.sandy_brick.name=Sandy Brick
+tile.sandy_small_brick.name=Small Sandy Brick
+tile.sandy_smooth.name=Smooth Sandy Brick
+tile.sandy_chiseled.name=Chiseled Sandy Brick
+tile.sandy_creeper.name=Creeper-Chiseled Sandy Brick
+tile.sandy_cobblestone.name=Sandy Cobblestone
 
 item.bronze_ingot.name=Bronze Ingot
 
